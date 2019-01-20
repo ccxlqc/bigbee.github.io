@@ -81,14 +81,14 @@
 
 <meta name="description" content="nginx踩的第一个坑遇到的问题有如下：(配置文件语法没有错误)  执行systemctl restart nginx遇到端口被占用 执行nginx -s reload 遇到pid文件丢失的问题  解决方案：  ps -ef|grep nginx 查看 进程号 kill -HUP + 进程号 结束占用端口的进程，然后重启服务 这时候就可以是用nginx -s reload -c /etc/ngin">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="nginx">
 <meta property="og:url" content="http://yoursite.com/2019/01/20/nginx/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="nginx踩的第一个坑遇到的问题有如下：(配置文件语法没有错误)  执行systemctl restart nginx遇到端口被占用 执行nginx -s reload 遇到pid文件丢失的问题  解决方案：  ps -ef|grep nginx 查看 进程号 kill -HUP + 进程号 结束占用端口的进程，然后重启服务 这时候就可以是用nginx -s reload -c /etc/ngin">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-20T10:16:50.563Z">
+<meta property="og:updated_time" content="2019-01-20T10:46:32.065Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="nginx">
 <meta name="twitter:description" content="nginx踩的第一个坑遇到的问题有如下：(配置文件语法没有错误)  执行systemctl restart nginx遇到端口被占用 执行nginx -s reload 遇到pid文件丢失的问题  解决方案：  ps -ef|grep nginx 查看 进程号 kill -HUP + 进程号 结束占用端口的进程，然后重启服务 这时候就可以是用nginx -s reload -c /etc/ngin">
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title> | Hexo</title>
+  <title>nginx | Hexo</title>
   
 
 
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">nginx</h1>
         
 
         <div class="post-meta">
@@ -261,7 +261,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-20T12:40:25+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-20T18:46:08+08:00">
                 2019-01-20
               </time>
             
